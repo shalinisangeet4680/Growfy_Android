@@ -1,0 +1,10 @@
+TEAM_ID=
+
+PRODUCT_NAME=Growfy
+PRODUCT_BUNDLE_IDENTIFIER=org.mobile.growfy.Growfy$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
+
+// "//" starts a comment in xcconfig, so the URL uses $() to escape it.
+API_BASE_URL=https:/$()/api.treevook.com/api/v1/
